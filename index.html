@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Página de Login</title>
+    <link rel="stylesheet" type="text/css" href="style/lixo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login</h2>
+      <form>
+        <div class="input-group">
+          <label for="email">Seu e-mail:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="robertomarinho@redeglobo.com"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="password">Sua senha:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="12345"
+            required
+          />
+          <div class="checkbox-group">
+            <input type="checkbox" id="remember" name="remember" />
+            <label for="remember">Manter-me logado</label>
+          </div>
+        </div>
+        <input type="submit" value="Entrar" class="submit-button" />
+        <div class="signup-section">
+          <p>Ainda não tem conta?</p>
+          <a
+            class="signup-button"
+            href="about.html"
+            role="button"
+            onclick="openMenuModal();"
+            >Cadastre-se</a
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
